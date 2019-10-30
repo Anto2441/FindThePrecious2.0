@@ -1,0 +1,222 @@
+/******** Police ***********/
+
+@font-face {
+  font-family: "AnironC";
+  src: url("police/anicb___.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Party Business";
+  src: url("police/partybusiness.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Tengwar Annatar";
+  src: url("police/tngan.ttf") format("truetype");
+}
+
+body {
+	font-family: "AnironC";
+	background-image: url("image/bg_light.png");
+}
+
+h1 {
+	font-size: 25px;
+	color: black;
+	text-align: center;
+}
+
+h2 {
+	font-family: Party Business;
+	font-size: 60px;
+	color: white;
+}
+
+h3 {
+	font-family: Party Business;
+	font-size: 40px;
+	color: white;
+	text-align: center;
+}
+
+h5 {
+	font-family: Party Business;
+	font-size: 30px;
+	color: #999999;
+	text-align: center;
+}
+
+p {
+	color: white;
+}
+
+/******** Navbar ***********/
+
+.navbar-brand, .nav-link {
+	color: grey;
+}
+
+.navigation{
+	background-color: #e67300;
+}
+
+.underline {
+	text-decoration: underline ;
+}
+
+/******** Carrousel ***********/
+
+.carousel-caption {
+	top: 38%;
+}
+
+/******** Pills and Cards***********/
+
+.symbole {
+	font-family: Tengwar Annatar;
+	font-size: 30px;
+	color: orange;
+}
+
+.soustitre {
+	font-size: 20px;
+}
+
+.trois_pills {
+	display: flex;
+	justify-content: center;
+	color: black;
+}
+
+.card-body {
+	background-color: #0d0d0d;
+}
+
+.prenom {
+	font-family: Party Business;
+    position: absolute;
+    color: white;
+    font-size: 50px;
+    top: 38%;
+    left: 25%;
+}
+
+.prenom-gimli {
+	font-family: Party Business;
+    position: absolute;
+    color: white;
+    font-size: 50px;
+    top: 38%;
+    left: 35%;
+    text-decoration: line-through #e98126;
+}
+
+/******** Rewards ***********/
+
+.container-reward {
+	display: flex;
+	flex-direction: column;
+}
+
+.reward-background {
+background-image: url("image/bg_dark.png");
+}
+
+/******** About the ring ***********/
+
+.card-header {
+	background-color: #cc6600;
+}
+
+.card-footer {
+	background-color: #cc6600;
+}
+
+
+/******** Gandalf ***********/
+
+.reward {
+	position: absolute;
+    background-color: #e6e6e6;
+    color: black;
+    font-size: 20px;
+    border-radius: 5px;
+    text-align: center;
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 15%;
+}
+
+.card .reward span {
+	color: orange;
+}
+
+.dead {
+	position: absolute;
+	font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    width: 70%;
+    margin-left: 12%;
+    margin-top: 20%;
+    color: orange;
+}
+
+.card-img-top {
+    opacity: 0.5;
+}
+
+.card:hover .card-img-top{
+	opacity: 1;
+}
+
+.card:hover .reward {
+	visibility: hidden;
+}
+
+.card:hover .dead {
+	visibility: hidden;
+}
+
+
+.trois_badges {
+	text-align: center;
+	font-size: 30px;
+}
+
+table {
+	text-align: center;
+}
+
+.footer {
+	background-color: #cc6600;
+	border-radius: 5px;
+}
+
+.footer a {
+	color: white;
+}
+
+.image_orc1 {
+	border-radius: 5px;
+}
+
+.image_orc2 {
+	border-radius: 5px;
+}
+
+.image_army {
+	border-radius: 5px;
+}
+
+.my_precious {
+	font-size: 30px;
+}
+
+.image_gollum {
+	border-radius: 200%;
+}
+
+.texte_gollum {
+	text-align: right;
+	font-size: 20px;
+	color: grey;
+}
